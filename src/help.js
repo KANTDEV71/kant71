@@ -3,10 +3,10 @@ return`
 𝐒𝐚𝐥𝐯𝐞 ${pushname} 𝐬𝐞𝐮 𝐥𝐢𝐧𝐝𝐨(a) 
 ╔══✪〘 _MENU_ 〙✪══
 ║
-╠➥𝐂𝐇𝐀𝐓 𝐎𝐅𝐂 𝐃𝐎 𝐁𝐎𝐓</> 
-╠➥ https://chat.whatsapp.com/BCs8wuedlYr7lmHt39wzxL
+╠➥𝐊𝐀𝐍𝐓 𝐎𝐅𝐂 𝐁𝐎𝐓</> 
+╠➥https://chat.whatsapp.com/BCs8wuedlYr7lmHt39wzxL
 ╠➥𝐊𝐀𝐍𝐓🐊 𝑩𝑶𝑻
-╠➥ *𝐕𝐄𝐑𝐒𝐀𝐎 | 3.0*
+╠➥ *𝐕𝐄𝐑𝐒𝐀𝐎|3.0*
 ╠➥ 𝐃𝐎𝐍𝐎: 𝐊𝐀𝐍𝐓🐊
 ╠➥ *wa.me/5571982507697*
 ╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
@@ -85,7 +85,7 @@ return`
 ║43 ➣ *${prefix}marcar*
 ║44 ➣ *${prefix}marcar2*
 ║45 ➣ *${prefix}marcar3*
-║46 ➣ *${prefix}welcome [1/0]
+║46 ➣ *${prefix}welcome* [1/0]
 ║47 ➣ *${prefix}setdesc*
 ║48 ➣ *${prefix}bug [sua mensagem]*
 ║

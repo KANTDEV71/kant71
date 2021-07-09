@@ -291,7 +291,7 @@ case  'rename':
 				    media = await client.downloadAndSaveMediaMessage(encmedia)
 		            anu = args.join(' ').split('|')
 		            satu = anu[0] !== '' ? anu[0] : `YT`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `Kratos`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `KANT`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media, client, mek, from)
 					break
@@ -499,7 +499,7 @@ send = await getBuffer(url)
 client.sendMessage(from, send, sticker, {quoted: mek})
 			     	break
 case 'attp6':	//@Kratos æ„›
-if (args.length < 1) return reply(`_Coloque o texto _\n\n*Exemplo ${prefix}sttc kratos*`)
+if (args.length < 1) return reply(`_Coloque o texto _\n\n*Exemplo ${prefix}sttc kant*`)
 teks = body.slice(6)
 url = encodeURI(`http://brizas-api.herokuapp.com/ttp/attp6?apikey=brizaloka&text=${teks}`)
 send = await getBuffer(url)
@@ -624,7 +624,7 @@ reply("Mensagem enviada ao meu dono; Spam = block + ban.")
 break
 case 'ban':
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner) return reply('*Este comando só pode ser usado pelo o dono 🌚🤙🏼 * ')
+if (!isOwner) return reply('*Este comando só pode ser usado pelo o dono 🌚🤙🏼* ')
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return 
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 pru = '.\n'
@@ -639,7 +639,7 @@ break
 
 case 'unban':
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner) return reply('*Este comando só pode ser usado pelo o dono 🌚🤙🏼 * ')
+if (!isOwner) return reply('*Este comando só pode ser usado pelo o dono 🌚🤙🏼* ')
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return 
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 pru = '.\n'

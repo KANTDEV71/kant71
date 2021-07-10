@@ -3,12 +3,12 @@ return`
 𝐒𝐚𝐥𝐯𝐞 ${pushname} 𝐬𝐞𝐮 𝐥𝐢𝐧𝐝𝐨(a) 
 ╔══✪〘 _MENU_ 〙✪══
 ║
-╠➥𝐊𝐀𝐍𝐓 𝐎𝐅𝐂 𝐁𝐎𝐓</> 
-╠➥https://chat.whatsapp.com/BCs8wuedlYr7lmHt39wzxL
-╠➥𝐊𝐀𝐍𝐓🐊 𝑩𝑶𝑻
+╠➥𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉 𝐎𝐅𝐂 𝐁𝐎𝐓</>
+╠➥https://chat.whatsapp.com/FQg6K75AfrkErIsu8ogFWE
+╠➥𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉 𝑩𝑶𝑻
 ╠➥ *𝐕𝐄𝐑𝐒𝐀𝐎|3.0*
-╠➥ 𝐃𝐎𝐍𝐎: 𝐊𝐀𝐍𝐓🐊
-╠➥ *wa.me/5571982507697*
+╠➥ 𝐃𝐎𝐍𝐎: 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉
+╠➥ *wa.me/556699324075*
 ╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ╠➥ 𝐈𝐍𝐅𝐎 𝐂𝐎𝐕𝐈𝐃-19: *${prefix}covid19*
 ║
@@ -265,22 +265,22 @@ return`
 ║ 
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
-║ *NOME: 𝑻𝑰𝑶 𝐊𝐀𝐍𝐓  ☔*
-║ *WPP: wa.me/+5571982507697*
-║ *PIX: +5571982507697*
+║ *NOME: 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉  ☔*
+║ *WPP: wa.me/+556699324075*
+║ *PIX: CHAME O NÚMERO ACIMA
 ║ *PESSOAS Q  EU AMO:OFF
 ║
-║  *"Peita ou respeita 𝐊𝐀𝐍𝐓🐊🚩*
-║  *"CORAÇÃO PARTIDO"*
+║  *"Peita ou respeita 𝑆𝐴𝐺𝐴𝑇𝐸🐊🚩*
+║  *"RESPEITA A LENDA"*
 ║
 ║ ➣ *${prefix}dono* para mais info
 ║ ➣ *${prefix}bugreporte*
 ║
-╚═〘 𝐊𝐀𝐍𝐓🐊🚩 〙!
+╚═〘 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉🐊🚩 〙!
 ➣  ║▌│█║▌│ █║▌│█│║▌║
 ➣  ║▌│█║▌│ █║▌│█│║▌║
 
-➣ Copyright © 𝑻𝑰𝑶 𝐊𝐀𝐍𝐓愛 2021`
+➣ Copyright © 𝑻𝑰𝑶 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉愛 2021`
 }
 
 

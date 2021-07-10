@@ -32,9 +32,9 @@ fi
 
 clear
 
-figlet -c -f slant -t 'MIA KHALIFA BOT' | lolcat 
+figlet -c -f slant -t "sagate BOT' | lolcat 
 
-echo  "Zoro no controle fml sem escândalo" | lolcat -a -d 50 
+echo  "sagate no controle fml sem escândalo" | lolcat -a -d 50 
 
 npm i cheerio
 apt-get update
@@ -47,5 +47,5 @@ apt-get install tesseract
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 npm i -g cwebp && npm i -g ytdl && npm i  && npm i got
-echo "[*] obrigado por utilizar o bot \"MIA KHALIFA BOT\" Zoro agradece"
+echo "[*] obrigado por utilizar o bot \"sagate BOT\" kant agradece"
 echo $GREEN "use npm start para iniciar"

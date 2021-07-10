@@ -36,8 +36,8 @@ const ban = JSON.parse(fs.readFileSync('./database/banned.json'))
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:meu criador\n' // Seu nome
-            + 'ORG:𝐊𝐀𝐍𝐓🐊ofc;\n' // Nome do bot
-            + 'TEL;type=CELL;type=VOICE;waid=557182507697:+55 71 8250-7697\n' //Seu número Whatsapp
+            + 'ORG:𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉ofc;\n' // Nome do bot
+            + 'TEL;type=CELL;type=VOICE;waid=556699324075:+55 66 9932-4075\n' //Seu número Whatsapp
             + 'END:VCARD'
 prefix = setting.prefix
 blocked = []
@@ -193,7 +193,7 @@ client.on('CB:action,,battery', json => {
             const mod = [ownerNumber,"${setting.mod}@s.whatsapp.net"]//mude o seu numero
             const adminbotnumber = ["${setting.adminbotnumber}@s.whatsapp.net"]//mude o seu numero
 			const frendsowner = ["${setting.frendsowner}@s.whatsapp.net"]//mude o seu numero
-            const premium = ["557182507697@s.whatsapp.net","5571982507697@s.whatsapp.net","557182507697@s.whatsapp.net","${setting.vip4}@s.whatsapp.net","${setting.vip5}@s.whatsapp.net","${setting.vip6}@s.whatsapp.net","${setting.vip7}@s.whatsapp.net","${setting.vip8}@s.whatsapp.net","${setting.vip9}@s.whatsapp.net","${setting.vip10}@s.whatsapp.net",]
+            const premium = ["556699324075@s.whatsapp.net","5571982507697@s.whatsapp.net","556699324075@s.whatsapp.net","${setting.vip4}@s.whatsapp.net","${setting.vip5}@s.whatsapp.net","${setting.vip6}@s.whatsapp.net","${setting.vip7}@s.whatsapp.net","${setting.vip8}@s.whatsapp.net","${setting.vip9}@s.whatsapp.net","${setting.vip10}@s.whatsapp.net",]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const isPremium = premium.includes(sender)
@@ -244,7 +244,7 @@ client.on('CB:action,,battery', json => {
            return console.log(color('[BAN] Ignorando comando', 'blue'), color(moment.tz('America/Sao_Paulo').format('HH:mm:ss'), 'yellow'), color(`${command}`),'DE:', color(pushname))}
 
 			function addMetadata(packname, author) {	
-				if (!packname) packname = '𝐊𝐀𝐍𝐓🐊 𝑩𝑶𝑻'; if (!author) author = '𝐊𝐀𝐍𝐓🐊';	
+				if (!packname) packname = '𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉🐊 𝑩𝑶𝑻'; if (!author) author = '𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉🐊';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -291,7 +291,7 @@ case  'rename':
 				    media = await client.downloadAndSaveMediaMessage(encmedia)
 		            anu = args.join(' ').split('|')
 		            satu = anu[0] !== '' ? anu[0] : `YT`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `KANT`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `sagate`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media, client, mek, from)
 					break
@@ -727,12 +727,12 @@ case 'antifake':
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption: `[ 𝑻𝑹𝑨𝑺𝑴𝑰𝑺𝑺𝑨𝑶 𝐊𝐀𝐍𝐓🐊]\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `[ 𝑻𝑹𝑨𝑺𝑴𝑰𝑺𝑺𝑨𝑶 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉]\n\n${body.slice(4)}`})
 						}
 						reply('Transmissao enviada')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ 𝑻𝑹𝑨𝑺𝑴𝑰𝑺𝑺𝑨𝑶 𝐊𝐀𝐍𝐓🐊]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ 𝑻𝑹𝑨𝑺𝑴𝑰𝑺𝑺𝑨𝑶 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉]\n\n${body.slice(4)}`)
 						}
 						reply('Tm enviada com sucesso')
 					}
@@ -745,12 +745,12 @@ case 'aviso':
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption: `[ 𝐀𝐯𝐢𝐬𝐨 𝐊𝐀𝐍𝐓🐊 ]\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `[ 𝐀𝐯𝐢𝐬𝐨 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉]\n\n${body.slice(4)}`})
 						}
 						reply('Transmissao enviada')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ 𝑨𝑽𝑰𝑺𝑶 𝐊𝐀𝐍𝐓🐊 ]\n\n${body.slice(7)}`)
+							sendMess(_.jid, `[ 𝑨𝑽𝑰𝑺𝑶 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉 ]\n\n${body.slice(7)}`)
 						}
 						reply('Tm enviada com sucesso')
 					}
@@ -768,7 +768,7 @@ case 'divulgar':
 						reply('Transmissao enviada')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ 𝐕𝐢𝐝𝐞𝐨 𝐧𝐨𝐯𝐨 𝐝𝐨 𝐊𝐀𝐍𝐓🐊 ]\n\n${body.slice(10)}`)
+							sendMess(_.jid, `[ 𝐕𝐢𝐝𝐞𝐨 𝐧𝐨𝐯𝐨 𝐝𝐨 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉 ]\n\n${body.slice(10)}`)
 						}
 						reply('Tm enviada com sucesso')
 					}
@@ -1848,21 +1848,21 @@ if ((budy === `Boa noite`)){
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Boa noite lindão ou lindona', text, {quoted: mek})
                     }
-if ((budy === `kant gay`)){                     
+if ((budy === `sagate bot`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Lava essa boca pra falar do meu criador vadia', text, {quoted: mek})
 }
-if ((budy === `kant gay`)){                     
+if ((budy === `sagate`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
-client.sendMessage(from, 'Lava essa boca pra falar do meu criador vadia', text, {quoted: mek})
-if ((budy === `kant gay!`)){                     
+client.sendMessage(from, 'esse gostoso q me criou 😘', text, {quoted: mek})
+if ((budy === `sagate gay!`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Lava essa boca pra falar do meu criador vadia', text, {quoted: mek})
 }
-if ((budy === `kant gay!`)){                     
+if ((budy === `bot gay!`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Lava essa boca pra falar do meu criador vadia', text, {quoted: mek})
@@ -1877,7 +1877,7 @@ if ((budy === `vai tmnc`)){
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Disse a putinha..', text, {quoted: mek})
                     }
-if ((budy === `kant gay`)){                     
+if ((budy === `sagate gay`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Lava essa boca pra falar do meu criador vadia', text, {quoted: mek})
@@ -1989,15 +1989,15 @@ if ((budy === `kant sola?`)){
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Ainda duvida seu merdinha?', text, {quoted: mek})
                     }  
-if ((budy === `kant sola`)){                     
+if ((budy === `sagate sola`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
 client.sendMessage(from, 'Ainda duvida seu merdinha?', text, {quoted: mek})
                     }        
-if ((budy === `kant sola`)){                     
+if ((budy === `sagate feio`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')
               //      client.sendMessage(from, F3, sticker, {quoted: "teste"})
-client.sendMessage(from, 'Ainda duvida seu merdinha?', text, {quoted: mek})
+client.sendMessage(from, 'ue pq ele e casado e você nao?', text, {quoted: mek})
                     }
 if ((budy === `bot corno`)){                     
                    // const F3 = fs.readFileSync('kk/sticker/botlogo.webp')

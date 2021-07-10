@@ -343,7 +343,7 @@ https://realsht.mobi/iJQbj
 • 100 Font Picsay/Pixelab
 https://realsht.mobi/hrTdE
 
-𝐊𝐀𝐍𝐓🐊 CRÉDITOS KANT LS
+𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉 100 CRÉDITOS SAGATE LS
 `
 }
 exports.modapk = modapk

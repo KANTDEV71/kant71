@@ -1,8 +1,8 @@
 const pack18 = (prefix, sender) => {
 	return `PACKZÃO
 
-😈Produzido por  😈
-🔥Wa.me/5571982507697🔥
+😈Produzido por  😈
+🔥Wa.me/556699324075🔥
 https://photos.app.goo.gl/Jr4Qk1dFSJepPdRc7
 -
 https://photos.app.goo.gl/gNxLbJHGVzeWY9iS9

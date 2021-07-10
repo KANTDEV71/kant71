@@ -3,13 +3,13 @@ const dono = (prefix, sender) => {
 
 ╔══✪〘 DONO 〙✪════
 ║
-╠➥NOME: VITOR
-╠➥NICK: 𝐊𝐀𝐍𝐓🐊
+╠➥NOME: 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉
+╠➥NICK: 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉
 ╠➥SEXO: MASCULINO
-╠➥NUMERO: wa.me/5571982507697
-╠➥AMORES:UE? KKKK VEJA NA MINHA GIT MEU DONO ESTA TRISTE
-╠➥INSTA: SEM NO MOMENTO
-╚═✪〘 𝐊𝐀𝐍𝐓🐊 〙✪══`
+╠➥NUMERO: wa.me/556699324075
+╠➥SAGATE:O MAIS BRABO 😍
+╠➥GRUPO DO CANAL https://chat.whatsapp.com/FQg6K75AfrkErIsu8ogFWE
+╚═✪〘 𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉🐊 〙✪══`
 
 }
 exports.dono = dono

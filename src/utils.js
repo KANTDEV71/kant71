@@ -20,7 +20,7 @@ Pack para edições quase 1 gb
 https://www.mediafire.com/file/lae02ex8t23vyfc/MEGA_PACK_STARTDZN_20K.zip/file
 
 
-𝐊𝐀𝐍𝐓🐊 DOMINA VADIAS👑
+𝑆𝐴𝐺𝐴𝑇𝐸 𝑇𝑉🐊 DOMINA VADIAS👑
 CASO QUEIRA QUE ALGUM LINK APAREÇA NESSA LISTA MANDE O LINK DE DOWNLOAD PRO CRIADOR
 
 
